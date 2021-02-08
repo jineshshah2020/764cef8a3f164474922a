@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .carding {
+    background-color: #f1f1f1 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .loader-centre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    width: 50%;
+    padding: 0 10px;
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  img{
+    max-width: 200px;
+    max-height: 200px;
+  }
